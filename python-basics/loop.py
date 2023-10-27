@@ -1,4 +1,4 @@
-# vagetable and quantity provided sequentially in input. 
+# vegetable and quantity provided sequentially in input.
 # store vegetable and its total quantity as a dict.
 vegetable = input()
 veg_price_dict = {}
@@ -12,7 +12,7 @@ while vegetable != 'stop':
 for key, value in veg_price_dict.items():
     print(f'{key}->{value}')
 
-# count of chatacters except space in string 
+# count of characters except space in string
 test_string = 'Sharad Kumar Dutta'
 char_dict = {}
 for ch in test_string:
@@ -53,7 +53,7 @@ for row in range(1, n+1):
         break
 
 # create a list of string from an existing list with all the empty entries being skipped
-names = ["India", "China", "", "Afganistan", "", "Sri Lanka"]
+names = ["India", "China", "", "Afghanistan", "", "Sri Lanka"]
 new_list = []
 for name in names:
     if name != "":
